@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="CustomProjectLogic" BeforeTargets="Build">
+    <Message Text="Scope: Project. I performing an action per project from a solution include. $(MSBuildExtensionsPath)\$(MSBuildToolsVersion)  $(MSBuildUserExtensionsPath)\$(MSBuildToolsVersion)" Importance="high"/>
+  </Target>
+</Project>
