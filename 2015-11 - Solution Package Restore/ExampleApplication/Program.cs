@@ -9,7 +9,7 @@ namespace ExampleApplication
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            Console.WriteLine("Hello World, Nuget version: " + NuGet.Constants.NuGetVersion);
             Console.ReadLine();
         }
     }
